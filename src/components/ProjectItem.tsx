@@ -19,6 +19,8 @@ export default function ProjectItem({
   githubLink,
   deployLink,
 }: CardProps) {
+  // test
+
   return (
     <div className="card join-item w-[900px] shadow-xl lg:card-side">
       <div className="w-[50%]">
