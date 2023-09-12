@@ -3,6 +3,17 @@ import Hero from "../components/Hero";
 import ProjectList from "~/components/ProjectList";
 
 export default function Home() {
+  const header = {
+    title: "Welcome to my portfolio",
+    description:
+      "A full stack developer looking for opportunities from freelance to full-time. My favorite technologies are ReactJS based. Check out my portfolio.",
+  };
+
+  const about = {
+    title: "About me",
+    description:
+      "A full stack developer looking for opportunities from freelance to full-time. My favorite technologies are ReactJS based. Check out my portfolio.",
+  };
   return (
     <>
       <Head>
@@ -11,7 +22,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center ">
-        <Hero />
+        <Hero title={header.title} description={header.description} />
+        <Hero title={about.title} description={about.description} />
         <ProjectList />
       </main>
     </>
