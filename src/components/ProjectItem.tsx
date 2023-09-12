@@ -24,11 +24,11 @@ export default function ProjectItem({
   // test
 
   return (
-    <div className="card join-item w-[900px] shadow-xl lg:card-side">
-      <div className="w-[50%]">
-        <img src={imageSrc} alt={imageAlt} className="h-[300px]" />
+    <div className="xs:flex-col card join-item flex shadow-xl lg:card-side md:w-[900px] md:flex-row ">
+      <div className="md:w-[50%]">
+        <img src={imageSrc} alt={imageAlt} className="md:h-[300px]" />
       </div>
-      <div className="card-body w-[50%]">
+      <div className="card-body md:w-[50%]">
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
         <div className="card-actions justify-end">

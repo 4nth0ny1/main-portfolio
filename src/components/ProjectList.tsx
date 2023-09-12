@@ -61,7 +61,7 @@ export default function ProjectList() {
   return (
     <>
       <h2 className="text-center text-5xl font-bold">Project List</h2>
-      <div className="join join-vertical mt-8 gap-8">
+      <div className="xs:w-[100%] join join-vertical mt-8 gap-8">
         {cards.map((card) => {
           return (
             <ProjectItem
