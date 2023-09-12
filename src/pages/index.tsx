@@ -5,7 +5,7 @@ import Navbar from "~/components/Navbar";
 import { useRef } from "react";
 
 export default function Home() {
-  const projectRef = useRef();
+  const projectRef = useRef<null | HTMLDivElement>(null);
 
   const projectClick = () => {
     projectRef.current?.scrollIntoView({ behavior: "smooth" });
