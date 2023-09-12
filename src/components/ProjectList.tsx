@@ -34,7 +34,8 @@ export default function ProjectList() {
       imageSrc: "/todos.jpg",
       imageAlt: "todos.jpg",
       title: "Manage It",
-      description: "Click the button to listen on Spotiwhy app.",
+      description:
+        "A great tool to manage multiple personal projects at the same time. This project uses the T3-Stack, which includes: NextJS, Tailwind, Prisma, tRPC, and PlanetscaleDB. Click on the website link below to create your account today.",
       githubLink: "https://github.com/4nth0ny1/t3-manage-it",
       deployLink: "https://t3-manage-it.vercel.app/",
     },
@@ -43,7 +44,8 @@ export default function ProjectList() {
       imageSrc: "/reddit.jpg",
       imageAlt: "reddit.jpg",
       title: "Simple Reddit",
-      description: "Click the button to listen on Spotiwhy app.",
+      description:
+        "A simple version of Reddit, which allows you to create conversations, comment, and vote on what you feel is important.",
       githubLink: "https://github.com/4nth0ny1/reddit-front-2",
       deployLink: "",
     },
@@ -52,7 +54,8 @@ export default function ProjectList() {
       imageSrc: "/crm.jpg",
       imageAlt: "crm.jpg",
       title: "Ruby on Rails CRM",
-      description: "Click the button to listen on Spotiwhy app.",
+      description:
+        "Customer Relationship Manager that utilizes Ruby on Rails and Bootstrap. Here you can create an account and stay in touch with your customers and create new opportunities for your business.",
       githubLink: "https://github.com/4nth0ny1/rails-crm",
       deployLink: "",
     },
