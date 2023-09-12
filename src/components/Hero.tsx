@@ -1,6 +1,6 @@
 type HeroProps = {
-  title: String;
-  description: String;
+  title: string;
+  description: string;
 };
 
 export default function Hero({ title, description }: HeroProps) {
