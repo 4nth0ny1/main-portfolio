@@ -56,7 +56,7 @@ export default function Home() {
         <div ref={homeRef}>
           <Hero title={header.title} description={header.description} />
         </div>
-        <div ref={aboutRef}>
+        <div ref={aboutRef} className="w-[100%] bg-black text-white">
           <Hero title={about.title} description={about.description} />
         </div>
         <div ref={projectRef} className="pt-32">
