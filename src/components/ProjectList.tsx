@@ -38,6 +38,7 @@ export default function ProjectList() {
         {cards.map((card) => {
           return (
             <ProjectItem
+              key={card.id}
               id={card.id}
               imageAlt={card.imageAlt}
               imageSrc={card.imageSrc}

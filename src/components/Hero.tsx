@@ -5,9 +5,9 @@ export default function Hero() {
         <div className="max-w-md">
           <h1 className="text-5xl font-bold ">Welcome to my portfolio</h1>
           <p className="py-6">
-            I'm a full stack developer looking for opportunities from freelance
-            to full-time. My favorite technologies are ReactJS based. Check out
-            my portfolio.
+            A full stack developer looking for opportunities from freelance to
+            full-time. My favorite technologies are ReactJS based. Check out my
+            portfolio.
           </p>
         </div>
       </div>
