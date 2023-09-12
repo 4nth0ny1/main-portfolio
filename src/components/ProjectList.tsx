@@ -33,7 +33,7 @@ export default function ProjectList() {
 
   return (
     <>
-      <h2 className="text-3xl font-bold">Project List</h2>
+      <h2 className="text-5xl font-bold">Project List</h2>
       <div className="join join-vertical mt-8 gap-8">
         {cards.map((card) => {
           return (
