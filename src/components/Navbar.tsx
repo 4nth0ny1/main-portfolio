@@ -1,4 +1,8 @@
-export default function Navbar() {
+type NavBarProps = {
+  handleProjectClick: () => void;
+};
+
+export default function Navbar({ handleProjectClick }: NavBarProps) {
   return (
     <div className="navbar bg-white">
       <div className="flex-1">
@@ -15,7 +19,7 @@ export default function Navbar() {
             <a>About</a>
           </li>
           <li>
-            <a>Projects</a>
+            <a onClick={handleProjectClick}>Projects</a>
           </li>
           <li>
             <a>Contact</a>
