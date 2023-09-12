@@ -36,7 +36,7 @@ export default function Home() {
   const about = {
     title: "About me",
     description:
-      "A full stack developer looking for opportunities from freelance to full-time. My favorite technologies are ReactJS based. Check out my portfolio.",
+      "Coding is my passion, especially in the ReactJS ecosystem. What I enjoy the most is rethinking how I code my projects. I think that coding is a world full of possibilities. Why do things one way when there are tons of possibilities for innovation? I'm open to ideas and would like to collaborate on some new projects and ideas. Let's connect!",
   };
 
   return (
