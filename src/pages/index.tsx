@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import ProjectList from "~/components/ProjectList";
 import Navbar from "~/components/Navbar";
+import Contact from "~/components/Contact";
 import { useRef } from "react";
 
 export default function Home() {
@@ -62,7 +63,7 @@ export default function Home() {
           <ProjectList />
         </div>
         <div ref={contactRef}>
-          <Hero title={about.title} description={about.description} />
+          <Contact />
         </div>
       </main>
     </>
