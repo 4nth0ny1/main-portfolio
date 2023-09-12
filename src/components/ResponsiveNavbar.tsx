@@ -60,7 +60,14 @@ export default function ResponsiveNavbar({
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl normal-case">Anthonys Portfolio</a>
+        <li className="list-none" onClick={revertBgColor}>
+          <a
+            onClick={handleHomeClick}
+            className="btn btn-ghost text-xl normal-case"
+          >
+            Anthonys Portfolio
+          </a>
+        </li>
       </div>
       <div
         className={`navbar sticky top-0 z-50 ${bgColor} hidden lg:flex lg:justify-end`}
