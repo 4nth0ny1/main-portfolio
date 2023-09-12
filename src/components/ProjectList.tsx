@@ -35,8 +35,8 @@ export default function ProjectList() {
       imageAlt: "todos.jpg",
       title: "Manage It",
       description: "Click the button to listen on Spotiwhy app.",
-      githubLink: "",
-      deployLink: "",
+      githubLink: "https://github.com/4nth0ny1/t3-manage-it",
+      deployLink: "https://t3-manage-it.vercel.app/",
     },
     {
       id: 5,
@@ -44,7 +44,7 @@ export default function ProjectList() {
       imageAlt: "reddit.jpg",
       title: "Simple Reddit",
       description: "Click the button to listen on Spotiwhy app.",
-      githubLink: "",
+      githubLink: "https://github.com/4nth0ny1/reddit-front-2",
       deployLink: "",
     },
     {
@@ -53,7 +53,7 @@ export default function ProjectList() {
       imageAlt: "crm.jpg",
       title: "Ruby on Rails CRM",
       description: "Click the button to listen on Spotiwhy app.",
-      githubLink: "",
+      githubLink: "https://github.com/4nth0ny1/rails-crm",
       deployLink: "",
     },
   ];

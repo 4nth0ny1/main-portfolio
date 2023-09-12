@@ -32,10 +32,16 @@ export default function ProjectItem({
         <h2 className="card-title">{title}</h2>
         <p>{description}</p>
         <div className="card-actions justify-end">
-          <Link href="https://main-portfolio-gold-three.vercel.app/">
+          <Link
+            href={
+              deployLink
+                ? deployLink
+                : "https://main-portfolio-gold-three.vercel.app/"
+            }
+          >
             <CgWebsite className="text-3xl" />
           </Link>
-          <Link href="https://github.com/4nth0ny1">
+          <Link href={githubLink ? githubLink : "https://github.com/4nth0ny1"}>
             <FiGithub className="text-3xl" />
           </Link>
         </div>
