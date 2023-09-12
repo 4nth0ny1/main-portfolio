@@ -29,6 +29,33 @@ export default function ProjectList() {
       githubLink: "",
       deployLink: "",
     },
+    {
+      id: 4,
+      imageSrc: "/todos.jpg",
+      imageAlt: "todos.jpg",
+      title: "Manage It",
+      description: "Click the button to listen on Spotiwhy app.",
+      githubLink: "",
+      deployLink: "",
+    },
+    {
+      id: 5,
+      imageSrc: "/reddit.jpg",
+      imageAlt: "reddit.jpg",
+      title: "Simple Reddit",
+      description: "Click the button to listen on Spotiwhy app.",
+      githubLink: "",
+      deployLink: "",
+    },
+    {
+      id: 6,
+      imageSrc: "/crm.jpg",
+      imageAlt: "crm.jpg",
+      title: "Ruby on Rails CRM",
+      description: "Click the button to listen on Spotiwhy app.",
+      githubLink: "",
+      deployLink: "",
+    },
   ];
 
   return (
