@@ -9,7 +9,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setLoading(!loading), 3000);
+    setTimeout(() => setLoading(!loading), 8000);
   }, []);
 
   return (
