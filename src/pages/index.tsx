@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Hero from "../components/Hero";
+import AboutHero from "../components/AboutHero";
 import ProjectList from "~/components/ProjectList";
 import Contact from "~/components/Contact";
 import ResponsiveNavbar from "~/components/ResponsiveNavbar";
@@ -54,11 +55,11 @@ export default function Home() {
         handleContactClick={contactClick}
       />
       <main className="flex min-h-screen flex-col items-center ">
-        <div ref={homeRef}>
+        <div ref={homeRef} className="w-full">
           <Hero title={header.title} description={header.description} />
         </div>
         <div ref={aboutRef} className="w-[100%] bg-black text-white">
-          <Hero title={about.title} description={about.description} />
+          <AboutHero title={about.title} description={about.description} />
         </div>
         <div ref={projectRef} className="pt-32">
           <ProjectList />
